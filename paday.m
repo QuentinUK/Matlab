@@ -6,4 +6,4 @@ for iq = 1:q+1
 temp(iq:length(c), iq)=c(1:length(c)-iq+1)
 end
 B = -Temp(p+2:p+q+1,2:q+1)\c(p+2:p+q+1)
-A = Temp(1:p+1,1q+1)*(1;B)
+A = Temp(1:p+1,iq+1)*(1;B)
